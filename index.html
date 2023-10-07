@@ -12,17 +12,36 @@
             background-color: #c95566; /* Green background for top card */
             color: #fff; /* White text for top card */
         }
+
+        .profile-pic {
+    max-width: 165px; /* Adjust the width as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px; /* Adjust the top margin as needed */
+    border-radius: 50%; /* Make the image a circle */
+}
+
     </style>
 </head>
 <body>
     <div class="container mt-4">
         <!-- Top Card -->
         <div class="card top-card">
-            <div class="card-body">
-                <h5 class="card-title">Raghavendra 21mis7106</h5>
+            <div class="card-body d-flex align-items-center">
+                <!-- Profile Picture -->
+                <img src="/assets/my-image.jpeg" alt="Profile Picture" class="profile-pic">
+    
+                <!-- Card Title -->
+                <h5 class="card-title flex-grow-1">-----Raghavendra 21mis7106</h5>
             </div>
         </div>
     </div>
+    
+    
+    
+    
+    
 
     <!-- Assignment Cards (10 in total) -->
     <div class="container mt-4">
